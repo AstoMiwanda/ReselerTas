@@ -1,0 +1,148 @@
+@charset 'UTF-8';
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Raleway", "Lato", "sans-serif", "Arial";
+}
+.tengah{
+	width: 1155px;
+	margin: auto;
+}
+.hapus{
+	flex: none;
+	float: none;
+	clear: both;
+}
+
+.navbar-template{
+	border-radius: 0;
+	padding: 10px;
+}
+
+.tentangKami-h1{
+	font-size: 14pt;
+	margin: 0;
+}
+.tentangKami-h2{
+	font-size: 14pt;
+	margin: 0;
+	margin-bottom: 25px;
+}
+.tentangKami-list{
+	margin-top: 10px;
+}
+.tentangKami-list:nth-child(2){
+	margin-top: 25px;
+}
+.bawah{
+	background-color: #ccc;
+	padding: 50px 0;
+}
+.bawah-content{
+	display: flex;
+	align-items: center;
+}
+@media screen and (max-width: 991px){
+	.bawah-content{
+		flex: none;
+		clear: both;
+	}
+}
+
+.popup{
+	text-align: center;
+}
+.popup-header{
+	width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: #6741ad;
+}
+.popup-header h1{
+	font-size: 14pt;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+.popup-form{
+	margin-top: 5px;
+}
+.input-form{
+	width: 25%;
+	padding: 5px 10px;
+}
+.btn-popup{
+	width: 10%;
+}
+
+#kontak{
+	width: 100%;
+	padding: 50px 0;
+	background-size: cover;
+	background-position: center;
+}
+#kontak h1{
+	margin: 0;
+	padding: 0;
+	font-size: 20pt;
+	color: #fff;
+	text-align: center;
+}
+#kontak h2{
+	margin-top: 10px;
+	font-size: 12pt;
+	color: #e1e1e1;
+	text-align: center;
+}
+#kontak .isi{
+	width: 50%;
+	margin: 50px auto 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+#kontak .box{
+	height: 50px;
+	display: flex;
+	align-items: center;
+}
+#kontak .img{
+	width: 80px;
+	height: 50px;
+}
+#kontak .img-box{
+	height: 100%;
+}
+#kontak .text{
+	width: 80%;
+}
+#kontak .text p{
+	font-size: 16pt;
+	margin: 0;
+	color: #fff;
+	font-weight: bold;
+}
+#kontak .box:nth-child(1){width: 40%;}
+#kontak .box:nth-child(2){width: 55%;}
+
+.filter{
+	margin-bottom: 50px;
+}
+.filter h1{
+	margin: 0;
+	font-size: 14pt;
+}
+.filter .box{
+	margin-top: 20px;
+}
+.filter table{
+	margin-top: 20px;
+}
+.filter table td{
+	padding-left: 10px;
+}
+.filter table td:nth-child(1){padding: 0;}
+.filter .btn-filter{
+	margin-top: 25px;
+	width: 100px;
+}

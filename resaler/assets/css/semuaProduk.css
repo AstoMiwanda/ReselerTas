@@ -1,0 +1,55 @@
+@charset 'UTF-8';
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Raleway", "Lato", "sans-serif", "Arial";
+}
+
+#barang h1{
+	font-size: 18pt;
+	color: #222;
+	text-align: center;
+	margin-bottom: 10px;
+}
+#barang .line-judul{
+	width: 20%;
+	height: 2px;
+	background-color: #7A05DD;
+	margin: auto;
+	margin-bottom: 50px;
+}
+#barang .img{
+	height: 150px;
+	text-align: center;
+}
+#barang .img-box{
+	height: 100%;
+}
+#barang .box{
+	border: 1px solid;
+	color: #ccc;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.rata{
+	display: flex;
+	flex-wrap: wrap;
+}
+.text h2{
+	font-size: 12pt;
+	color: #222;
+	text-align: center;
+	font-weight: bold;	
+}
+.text p{
+	font-size: 10pt;
+	color: #444;
+}
+.harga h3{
+	font-size: 14pt;
+	color: #7A05DD;
+	margin-bottom: 20px;
+}
+.bottom-5{
+	margin-bottom: 50px;
+}

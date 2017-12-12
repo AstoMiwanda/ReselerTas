@@ -1,17 +1,13 @@
-<ppkkppkpkpk>
-	
-
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Resaler Tas</title>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap-grid.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap-reboot.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/slick.css">
   <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/template.css">
   <style type="text/css">
     html, body {
       margin: 0;
@@ -70,9 +66,9 @@
 		<div class="menu">
 			<ul>
 				<li><a href="index.php">Home</a></li>
-				<li><a href="produk.php">Produk</a></li>
+				<li><a href="semuaProduk.php">Produk</a></li>
+        <li><a href="pesanan.php">Pesanan</a></li>
 				<li><a href="tentang.php">Tentang</a></li>
-				<li><a href="kontak.php">Kontak</a></li>
 			</ul>
 		</div>
 		</div>
@@ -230,71 +226,9 @@
 	<div class="hapus"></div>
 </div>
 
-<div id="kontak" style="background-image: url(img/<?php echo 'kontak.jpg'; ?>);">
-	<h1>Anda butuh bantuan ?</h1>
-	<h2>Kami siap melayani anda.</h2>
-	<div class="isi">
-		<div class="box">
-			<div class="img">
-				<img class="img-box" src="img/<?php echo 'telp.png'; ?>">
-			</div>
-			<div class="text">
-				<p>0831-2692-3754</p>
-			</div>
-		</div>
+<?php require_once'template/kontak.php'; ?>
 
-		<div class="box">
-			<div class="img">
-				<img class="img-box" src="img/<?php echo 'email.png'; ?>">
-			</div>
-			<div class="text">
-				<p>totorubianto14@gmail.com</p>
-			</div>
-		</div>
-	</div>
-</div>
-
-<div id="bawah">
-  <div class="tengah">
-    <div class="isi">
-    <div class="logo">
-      <img src="img/logo-bawah.png" class="img-logo">
-    </div>
-    <div class="box">
-      <div class="kategori">
-        <h1>Kategori</h1>
-        <a href="baju.php">Baju</a><br>
-        <a href="tas.php">Tas</a><br>
-      </div>
-
-      <div class="ikuti">
-        <h1>Ikuti Kami</h1>
-        <div class="sosmed">
-          <div class="sosmed-img">
-            <img src="assets/img/fb.png" class="img-sosmed">
-          </div>
-          <div class="sosmed-text">
-            <h2>Facebook Akun</h2>
-          </div>
-        </div>
-      </div>
-
-      <div class="kontak">
-        <h1>Kontak Kami</h1>
-        <div class="hubungi">
-          <div class="kontak-img">
-            <img src="assets/img/telp-bawah.png" class="img-kontak">
-          </div>
-          <div class="kontak-text">
-            <h2>0831-2692-3754</h2>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
-  </div>
-  <div class="hapus"></div>
-</div>
+<?php require_once'template/footer.php'; ?>
 
  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
   <script src="assets/js/slick.js" type="text/javascript" charset="utf-8"></script>

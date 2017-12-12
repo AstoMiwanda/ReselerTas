@@ -1,0 +1,42 @@
+@charset 'UTF-8';
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Raleway", "Lato", "sans-serif", "Arial";
+}
+
+.tab-pesanan{
+	min-height: 300px;
+	margin-bottom: 50px;
+}
+.tab-pesanan table{
+	width: 100%;
+	margin-top: 50px;
+}
+.tab-pesanan table tr{
+	height: 50px;
+}
+.tab-pesanan table td{
+	padding: 0 20px;
+	background-color:#e4d5ff;
+}
+.tab-pesanan table th{
+	padding: 0 20px;
+	background-color: #6645a2;
+	color: #fff;
+}
+.harga{
+	margin: 25px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.harga h1{
+	font-size: 14pt;
+}
+.btn-beli{
+	width: 100%;
+}
+.margin-top{
+	margin-top: 20px;
+}

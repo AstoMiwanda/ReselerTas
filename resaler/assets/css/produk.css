@@ -1,0 +1,105 @@
+@charset 'UTF-8';
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Raleway", "Lato", "sans-serif", "Arial";
+}
+.img-barang{
+	display: flex;
+	justify-content: center;
+}
+.harga{
+	display: flex;
+	align-items: center;
+}
+
+#halamanProduk h1{
+	margin: 0;
+	font-size: 12pt;
+	color: #7A05DD;
+}
+#halamanProduk h2{
+	margin-top: 20px;
+	padding: 0;
+	font-size: 16pt;
+	color: #222;
+}
+#halamanProduk h3{
+	margin: 0;
+	font-size: 12pt;
+}
+#halamanProduk h4{
+	font-size: 14pt;
+	color: #5715AA;
+}
+#halamanProduk p{
+	font-size: 10pt;
+	line-height: 14pt;
+	color: #777;
+	margin-bottom: 25px;
+}
+#halamanProduk .form-jumlah{
+	padding: 5px;
+	margin-bottom: -14px;
+}
+#halamanProduk .btn-tambahKeranjang{
+	margin-top: 25px;
+	width: 100%;
+}
+
+
+#spesifikasiBarang h1{
+	margin-top: 50px;
+	font-size: 12pt;
+}
+#spesifikasiBarang h2{
+	font-size: 14pt;
+	margin: 0;
+	margin-bottom: 20px;
+	font-weight: bold;
+	color: #222;
+}
+#spesifikasiBarang p{
+	font-size: 10pt;
+	line-height: 14pt;
+	margin: 0;
+	padding: 0;
+	color: #777;
+}
+#spesifikasiBarang .line-spesifikasiBarang{
+	height: 2px;
+	width: 20%;
+	margin: 5px 0 25px 0;
+	background-color: #7A05DD;
+}
+#spesifikasiBarang .table-spesifikasiBarang{
+	background-color: #c7b6e8;
+	padding: 25px 20px;
+}
+#spesifikasiBarang th{
+	padding: 5px 0 5px 20px;
+}
+#spesifikasiBarang td{
+	padding: 5px;
+}
+#spesifikasiBarang th:nth-child(1){padding-left: 0;}
+#spesifikasiBarang .img-spesifikasi{
+	margin: 50px 0;
+}
+#spesifikasiBarang .img-border{
+	border-radius: 5px;
+}
+#spesifikasiBarang .row-marginTop{
+	margin: 50px auto 0 auto;
+	width: 75%;
+}
+#spesifikasiBarang .mini-content{
+	width: 75%;
+	margin: auto;
+}
+#spesifikasiBarang .line-keunggulan{
+	margin: 25px auto;
+	width: 75%;
+	height: 1px;
+	background-color: #ccc;
+}
